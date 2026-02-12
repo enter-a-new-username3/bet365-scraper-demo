@@ -4,4 +4,5 @@ my_config.json
 bet365/live.py
 messages.log
 azuretls.py
+azure_libraries
 response.txt
