@@ -14,7 +14,7 @@ session = Bet365AndroidSession(
     verify=False,
     host="www.bet365.com",
 )
-print("Going to homepage started taking longer than it should because of curl_cffi.")
+
 session.go_homepage()
 
 sports = session.extract_available_sports()
