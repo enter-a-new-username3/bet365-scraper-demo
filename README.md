@@ -31,4 +31,4 @@ python3 main.py
 ```
 ## Contact
 
-[Discord](https://discord.gg/u56FypRKKc)
+[Discord](https://discord.gg/Fxzgdu5Dfz)
