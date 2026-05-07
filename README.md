@@ -13,7 +13,7 @@ A powerful and easy-to-use Bet365 API service designed to support both **Android
 - Automate betting.
 
 ## Getting Started
-This repository contains the API service source code. To explore its full capabilities, you can request a more detailed **demo**.
+This repository contains the API service source code. To explore its full capabilities, you can request a **demo**.
 
 ## Contact
 If you want a demo, please reach out to me via Discord.  
