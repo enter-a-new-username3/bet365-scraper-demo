@@ -93,13 +93,11 @@ class Bet365AndroidSession:
             headers={
                 "User-Agent": "Mozilla (Linux; Android 12 Phone; CPU M2003J15SC OS 12 like Gecko) Chrome/144.0.7559.59 Gen6 bet365/8.0.36.00",
                 "X-b365App-ID": "8.0.36.00-row",
-                "Host": "www.bet365.com",
+                "Host": self.host,
                 "Connection": "Keep-Alive",
                 "Accept-Encoding": "gzip",
             },
         )
-        with open("response.txt", "w", encoding="utf8") as fp:
-            fp.write(splash_response.text)
         match_tables = []
         for parser in get_parsers(splash_response.text):
             for _, _ in parser.find_sections(
